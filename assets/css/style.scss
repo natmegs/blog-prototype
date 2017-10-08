@@ -304,10 +304,8 @@ BLOG SECTION
 }
 
 @media screen and (max-width: 550px) {
-    #postList {
-        .blog-feature {
-            height: 200px;
-        }
+    .blog-feature {
+        height: 200px;
     }
 }
 
