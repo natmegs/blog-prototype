@@ -5,7 +5,7 @@ layout: home
     <div class="centered">
         <h1 class="blog-header editable">Blog Archive</h1>
     </div>
-    <a href="/" class="home-button">Home Page</a>
+    <a href="{{baseurl}}/" class="home-button">Home Page</a>
 </div>
 
 <div class="container text-center">
@@ -27,9 +27,9 @@ layout: home
             <p class="blog-date">{{ post.date | date: '%B %d, %Y' }}</p>
             <p>{{ post.meta }}</p>
         </div>
-        <a class="bloglink" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+        <a class="bloglink" href="{{baseurl}}{{ post.url }}">Read more</a>
     </div>
     {% endfor %}
 </div>
 
-<script src="{{ site.baseurl }}/assets/js/PostFilter.js"></script>
+<script src="{{baseurl}}/assets/js/PostFilter.js"></script>
