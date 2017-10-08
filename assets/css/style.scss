@@ -303,6 +303,14 @@ BLOG SECTION
     }
 }
 
+@media screen and (max-width: 550px) {
+    #postList {
+        .blog-feature {
+            height: 200px;
+        }
+    }
+}
+
 .blog-date {
     font-style: italic;
 }
